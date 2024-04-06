@@ -1,0 +1,10 @@
+class CupOfTea:
+    def __init__(self, flavor, temperature):
+        self.flavor = flavor
+        self.temperature = temperature
+
+    def take_sip(self):
+        if self.temperature > 60:
+            print("Careful! The tea is too hot.")
+        else:
+            print("Sipping {} tea... Ahh, refreshing!".format(self.flavor))
